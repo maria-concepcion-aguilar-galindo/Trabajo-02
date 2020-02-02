@@ -1,0 +1,154 @@
+/*------------------------------- LAYOUT ----------------*/
+
+.mainContainer{
+
+      display: flex;
+      width 1200px;
+}
+
+
+
+/*------------------------------- GENERAL ----------------*/
+
+ul{
+  list-style-type: none;
+}
+
+h1,
+h2{
+ text transform: uppercase;
+}
+
+/*------------------------------- ASIDE -------------------*/
+aside{
+  background-color: #83C0D8;
+  width: 20%;
+  margin-right: 3%;
+}
+
+aside *{
+  color: #090909;
+
+}
+
+
+aside h2{
+  text-transform: uppercase;
+  letter-spacing: 5px;
+
+}
+
+aside section h2:first-child{
+  border-bottom: 2px solid #83C0D8;
+  
+
+}
+
+.contact{
+
+   background-color: #4B94D4;
+   text-align: center;
+   width: 100%;
+
+
+}
+
+#mailPicture img{
+
+ width: 30px; height: 30px;
+}
+#phonePicture img{
+
+ width: 30px; height: 30px;
+}
+
+#ldPicture img{
+
+ width: 30px; height: 30px;
+}
+
+#fbPicture img{
+
+ width: 30px; height: 30px;
+}
+
+
+
+#profilePicture img{
+
+ width: 150px; height: 200px;
+ border-radius: 10%;
+}
+/*------------------------------- MAIN -------------------*/
+
+main section >h2 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.hero{
+   background-color: #91EAEB;
+   box-shadow: 3px 3px 30px 5px #85929E inset;
+   padding: 10% 0;
+   text-align: center;
+   
+}
+
+.hero h2{
+   color: #CD6155;
+   border-top: 2px solid white;
+   text-transform: uppercase;
+   letter-spacing: 15px;
+ 
+}
+
+.hero h1{
+  letter-spacing: 10px;
+}
+.references{
+  display: flex;
+
+}
+
+.references{
+
+   background-color: #E2E7EA;
+   text-align: center;
+   width: 90%;
+
+
+}
+
+.aboutMe{
+
+background-color: white;
+
+}
+
+.aboutMe h2{
+
+background-color: white;
+
+}
+
+.aboutMe p{
+    line-height: 2em;
+    background-color: white;
+    padding: 5px;
+
+}
+
+article h3 {
+  font-weight: bold;
+
+}
+
+article h4{
+  font-weight: bold;
+}
+
+meter {
+  display: block;
+width: 80%;
+
+}
